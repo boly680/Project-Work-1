@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>CineList</title>
+    <link rel="shortcut icon" href="assests/images/cl.jpeg" type="image/x-icon">
+</head>
+
+<body class="home-page">
+    <nav class="navbar">
+        <div class="logo"><img src="assests/images/logo.png" alt=""></div>
+
+        <ul>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="series.html">SERIES</a></li>
+            <li><a href="mylist.html">MY LIST</a></li>
+            <li class="dropdown">
+                <a href="#">GENRE</a>
+                <ul class="dropdown-menu">
+                    <li><a href="action.html">Action</a></li>
+                    <li><a href="comedy.html">Comedy</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="horror.html">Horror</a></li>
+                    <li><a href="sci-fi.html">Sci-Fi</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div class="nav-actions">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="login-btn"><i class="fa-solid fa-user"></i> MyProfile</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="assests/videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>Superman</h1>
+            <p>Born on the doomed planet Krypton, Kal-El was sent to Earth where he grew up
+                as Clark Kent.<br> With incredible powers of strength, flight, and hope, <br>he becomes
+                Superman — the protector of humanity and symbol of justice.</p>
+            <div class="buttons">
+                <button class="btn play"><i class="fa-solid fa-play"></i> Play</button>
+                <button class="btn info"><i class="fa-solid fa-circle-info"></i> More Info</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <h2>Trending</h2>
+        <div class="tabs">
+            <button class="active">
+                <i class="fa-solid fa-play"></i> Movies
+            </button>
+            <button>
+                <i class="fa-solid fa-list"></i> TV Shows
+            </button>
+        </div>
+    </div>
+
+    <div class="movie-list">
+        <div class="card">
+            <div class="card-img">
+                <div class="play-btn"><i class="fa-solid fa-play"></i></div>
+                <img src="assests/images/fight club.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Fight Club</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/F1.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>F1</h4>
+                <p>2025 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/isawthedevil.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>I Saw The Devil</h4>
+                <p>2011 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/oppenheimer.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Oppenheimer</h4>
+                <p>2023 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/superman.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Superman</h4>
+                <p>2025 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/tpoh.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Parsuit Happiness</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/intersteller.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Intersteller</h4>
+                <p>2015 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/thedarkknight.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Dark Knight</h4>
+                <p>2007 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/shawshank.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Shawshank </h4>
+                <p>1995 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/greenmile.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Green Mile</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/memnto.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Memento</h4>
+                <p>2002 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/inception.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Inception</h4>
+                <p>2015 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/mi.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Mission Impossible</h4>
+                <p>2019 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/prestige.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Prestige</h4>
+                <p>2004 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/madmax.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Mad Max</h4>
+                <p>2010 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/sinners.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Sinners</h4>
+                <p>2025 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/matrix.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Matrix</h4>
+                <p>2004 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/inglo.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Inglourioius Busterds</h4>
+                <p>2011 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/back.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Back To The Future</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/batman.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Batman</h4>
+                <p>2023 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/fight club.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Fight Club</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/shawshank.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Shawshank</h4>
+                <p>1999 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/mi.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>Mission Impossible</h4>
+                <p>2015 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="assests/images/prestige.webp" alt="">
+                <span class="badge">HD</span>
+            </div>
+            <div class="card-body">
+                <h4>The Prestige</h4>
+                <p>2004 • 145m</p>
+                <span class="tag">Movie</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
